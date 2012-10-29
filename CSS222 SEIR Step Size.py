@@ -30,6 +30,9 @@ def seir_model():
     i[0] = 1e5
     r[0] = 1e6
 
+# hello
+
+
     for step in range(num_steps):
         s2e = h * sample_transmission_coeff[step] * s[step] * i[step]
         e2i = h / latency_time * e[step]
