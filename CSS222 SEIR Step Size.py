@@ -18,7 +18,9 @@ def seir_model():
 
     sample_transmission_coeff = numpy.random.normal(transmission_coeff, 3e-9, num_steps)
     latency_time = 1. # days
-    infectious_time = 5. # days
+    infectious_time = 5. #   days
+
+
 
     s = numpy.zeros(num_steps + 1)
     e = numpy.zeros(num_steps + 1)
