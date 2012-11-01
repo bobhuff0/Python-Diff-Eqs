@@ -1,7 +1,10 @@
 # Draw samples from the distribution:
 import numpy as np
 mu, sigma = 0, 0.1 # mean and standard deviation
-s = np.random.normal(mu, sigma, 100)
+s = np.random.normal(mu, sigma, 1000000)
+1+1
+2+1
+
 print s
 
 # Verify the mean and the variance:
