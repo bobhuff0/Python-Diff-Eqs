@@ -37,6 +37,8 @@ def plot_me():
     def friction_coeff(slip):
         return 1.1 * (1. - math.exp(-20. * slip)) - 0.4 * slip
 
+
+
     def wheel_slip():
         b_values = numpy.arange(70., 190.1, 30.) # m / s2
         for b in b_values:
