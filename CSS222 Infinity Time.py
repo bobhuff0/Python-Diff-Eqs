@@ -15,7 +15,7 @@ num_steps = int(end_time / h)
 times = h * numpy.array(range(num_steps + 1))
 
 x = numpy.zeros(num_steps + 1)
-
+#
 x[0] = 3.
 
 def forward_euler():
