@@ -28,6 +28,7 @@ x = numpy.zeros(num_steps + 1) # m
 times = h * numpy.array(range(num_steps + 1))
 
 @show_plot(7,7)
+
 def plot_me():
     axes_x = matplotlib.pyplot.subplot(411)
     axes_v = matplotlib.pyplot.subplot(412)
